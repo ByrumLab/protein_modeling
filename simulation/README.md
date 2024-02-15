@@ -36,8 +36,8 @@
 
 | Step | Task | Package | Tick |
 |------|-----------------------------------------------------------|:-------------:| -----:|
-| 1 | Install Conda |||
-| 2 | Create a Conda environment for Molecular Dynamics Simulation |||
+| 1 | Install Conda ||:heavy_check_mark:|
+| 2 | Create a Conda environment for Molecular Dynamics Simulation ||:white_check_mark:|
 | 3 | Activate the environment |||
 | 4 | Install required packages |||
 | 5 | Obtain the molecular structure files |||
