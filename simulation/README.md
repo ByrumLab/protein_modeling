@@ -15,25 +15,22 @@
 4. Preparing the System
 - Obtaining the molecular structure files
 - Preparing the input files for the simulation
-- Setting up the initial conditions
+- Setting up the initial conditions NVT, NPT
 
 5. Running the Simulation
-- Configuring the simulation parameters
+- Configuring the simulation parameters 
 - Executing the Molecular Dynamics Simulation
 - Monitoring the simulation progress
 
 6. Analyzing the Results
 - Extracting data from the simulation output
-- Visualizing the trajectory
+- Visualizing the trajectory via Pymol and VMD
 - Analyzing the system properties
 
 7. Troubleshooting and Tips
 - Common issues and their solutions
 - Best practices for efficient simulations
 
-8. Conclusion
-- Recap of the tutorial
-- Further resources for learning Molecular Dynamics Simulation
 
 ## Checklist 
 
