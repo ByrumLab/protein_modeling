@@ -37,21 +37,21 @@
 
 ## Checklist 
 
-| Step | Task |
-|------|-----------------------------------------------------------|
-| 1 | Install Conda |
-| 2 | Create a Conda environment for Molecular Dynamics Simulation |
-| 3 | Activate the environment |
-| 4 | Install required packages |
-| 5 | Obtain the molecular structure files |
-| 6 | Prepare the input files for the simulation |
-| 7 | Set up the initial conditions |
-| 8 | Configure the simulation parameters |
-| 9 | Execute the Molecular Dynamics Simulation |
-| 10 | Monitor the simulation progress |
-| 11 | Extract data from the simulation output |
-| 12 | Visualize the trajectory |
-| 13 | Analyze the system properties |
-| 14 | Troubleshoot common issues |
-| 15 | Recap the tutorial and explore further resources |
+| Step | Task | Package | Tick |
+|------|-----------------------------------------------------------|:-------------:| -----:|
+| 1 | Install Conda |||
+| 2 | Create a Conda environment for Molecular Dynamics Simulation |||
+| 3 | Activate the environment |||
+| 4 | Install required packages |||
+| 5 | Obtain the molecular structure files |||
+| 6 | Prepare the input files for the simulation |||
+| 7 | Set up the initial conditions |||
+| 8 | Configure the simulation parameters |||
+| 9 | Execute the Molecular Dynamics Simulation |||
+| 10 | Monitor the simulation progress |||
+| 11 | Extract data from the simulation output |||
+| 12 | Visualize the trajectory |||
+| 13 | Analyze the system properties |||
+| 14 | Troubleshoot common issues |||
+| 15 | Recap the tutorial and explore further resources |||
 
