@@ -53,5 +53,5 @@
 | 12 | Visualize the trajectory |||
 | 13 | Analyze the system properties |||
 | 14 | Troubleshoot common issues |||
-| 15 | Recap the tutorial and explore further resources |||
+
 
