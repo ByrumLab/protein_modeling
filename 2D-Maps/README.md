@@ -2,8 +2,8 @@ Protein contact maps are a reduced representation of protein structure, providin
 Contact maps provide a simplified representation of protein structures, facilitating the visual inspection of structural features based on residue proximity within the defined distance threshold.
 A contact map is a square matrix M where Mi,j=1 if the distance δij between residues i and j is below a predetermined distance threshold t or Mi,j=0 otherwise. The equation for a contact map as described can be represented as follows:
 
-M(i,j) = 1 if δ(i,j) < t
-M(i,j) = 0 if δ(i,j) ≥ t
+$` M(i,j) = 1 if δ(i,j) < t `$
+$` M(i,j) = 0 if δ(i,j) ≥ t `$
 
 Where:
 - M(i,j) represents the element at row i and column j in the contact map matrix.
