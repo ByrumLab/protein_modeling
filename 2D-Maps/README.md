@@ -3,6 +3,7 @@ Contact maps provide a simplified representation of protein structures, facilita
 A contact map is a square matrix M where Mi,j=1 if the distance δij between residues i and j is below a predetermined distance threshold t or Mi,j=0 otherwise. The equation for a contact map as described can be represented as follows:
 
 <div align=”center”>
+  
 $` M(i,j) = 1 if δ(i,j) < t `$
 
 $` M(i,j) = 0 if δ(i,j) ≥ t `$
