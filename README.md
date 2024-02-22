@@ -8,7 +8,7 @@ Welcome to the Protein Modeling Tutorial Git repository! Here you will find valu
 2. **Fold Recognition or Threading Methods**
 - Evaluates how well the amino acid sequence of a protein fits into known 3D protein structures using inter-residue potentials of mean force or statistical parameters.
 
-3. **Ab Initio Methods**
+3. **Ab Initio Methods (Modeller, I-tessar)**
 - Utilizes knowledge-based information to predict 3D structures of protein sequences without using template structures. Successful cases are typically observed in small proteins with length below 100 residues.
 
 4. **Ab Initio Methods without Knowledge-based Information (AlphaFold2)**
@@ -24,6 +24,7 @@ Welcome to the Protein Modeling Tutorial Git repository! Here you will find valu
 - [x] Install Cath tools: `conda install bioconda::cath-tools`
 - [x] Install ProDy for protein structure, dynamics, and sequence analysis: `conda install prody` or `mamba install prody`
 - [x] Install Mustang for structural alignment of multiple protein structures: `conda install bioconda::mustang`
+- [ ] _will add more_
 
 For more detailed information and resources, please refer to the provided notebooks and documentation. 
 Happy modeling!
