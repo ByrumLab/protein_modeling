@@ -1,25 +1,29 @@
-# protein_modeling
+Welcome to the Protein Modeling Tutorial Git repository! Here you will find valuable information on computational methods for Protein Structure Prediction. Below are some key methods and tools discussed in this tutorial:
 
-#Introduction to protein structures
+## Computational Methods for Protein Structure Prediction
 
+1. **Homology or Comparative Modeling**
+- Approximates the 3D structure of a target protein using an empirical 3D template structure with >30% sequence identity.
 
+2. **Fold Recognition or Threading Methods**
+- Evaluates how well the amino acid sequence of a protein fits into known 3D protein structures using inter-residue potentials of mean force or statistical parameters.
 
-#Protein structure prediction
+3. **Ab Initio Methods**
+- Utilizes knowledge-based information to predict 3D structures of protein sequences without using template structures. Successful cases are typically observed in small proteins with length below 100 residues.
 
-*	Homology or Comparative Modeling
+4. **Ab Initio Methods without Knowledge-based Information (AlphaFold2)**
+- AlphaFold2, developed by DeepMind, is a machine-learning based model that won the championship in the 14th Critical Assessment of Structure Prediction (CASP14). It represents a significant advance in protein structure prediction.
 
-Comparative ("homology") modeling approximates the 3D structure of a target protein for which only the sequence is available, provided an empirical 3D "template" structure is available with >30% sequence identity.
+## Model Validation
 
-*	Fold Recognition or threading Methods
+- Every homology model contains errors due to factors such as % sequence identity between reference and model. It is essential to validate the correctness of the overall fold/structure, errors in localized regions, and stereochemical parameters.
 
-In fold recognition by threading one takes the amino acid sequence of a protein and evaluates how well it fits into one of the known three-dimensional (3D) protein structures. The quality of sequence-structure fit is typically evaluated using inter-residue potentials of mean force or other statistical parameters.
+## Protein Related Conda Tools
 
-*	Ab initio methods that utilize knowledge-based information
+### Checklist:
+- [x] Install Cath tools: `conda install bioconda::cath-tools`
+- [x] Install ProDy for protein structure, dynamics, and sequence analysis: `conda install prody` or `mamba install prody`
+- [x] Install Mustang for structural alignment of multiple protein structures: `conda install bioconda::mustang`
 
-Despite significant effort, we still have very limited ability to fold proteins by ab initio approaches, i.e. to predict 3D structures of protein sequences without using template structures from other experimentally solved proteins. Successful cases have been witnessed only on small proteins with length below 100 residues, and with a root mean squared deviation (RMSD) typically above 2.5 Å. The difficulty of ab initio protein structure prediction is twofold. First, we lack decent force fields to accurately describe the atomic interactions which can be used to guide the protein folding simulations. 
-Apparently, force fields with an incorrectly located global minimum will undoubtedly misfold the target proteins. Although the physics-based atomic force fields can provide a reasonable description of protein atomic interactions in many aspects, the implementation requests atomic-level representation which is often too slow to fold a protein structure from scratch. The knowledge-based potentials, which are often in reduced forms and derived from statistical regularities of structures in the Protein Data Bank (PDB), have shown power in both protein fold recognition and structure assembly simulations, where appropriate selections of reference states and structural features are proven to be of critical importance.
-
-*	Ab initio methods without the aid of knowledge-based information
-
-This is where Alphafold2 comes into play.
-
+For more detailed information and resources, please refer to the provided notebooks and documentation. 
+Happy modeling!
