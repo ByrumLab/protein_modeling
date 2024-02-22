@@ -4,7 +4,7 @@ Traditionally, proteins were studied individually by identifying and cloning the
 
 As of February 7, 2006, the RCSB/PDB contained 35,026 structures, with 33,429 being proteins, including those in complexes with nucleic acids. When encountering a protein structure model for the first time, the complexity of thousands or even hundreds of thousands of atoms may seem overwhelming. To simplify this, a hierarchical description of protein structure is commonly used, consisting of primary, secondary, tertiary, and quaternary levels. Additionally, super secondary structures and domains are included between the secondary and tertiary levels to provide a more detailed organization of protein structures. This hierarchical approach aids in deciphering patterns within protein structures and understanding their functional significance.
 
-![Alt text](image link)
+![Alt text](https://github.com/kalyanidhusia/protein_modeling/blob/main/Figure_1.png)
 
 
 
