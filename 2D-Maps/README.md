@@ -4,7 +4,11 @@ A contact map is a square matrix M where Mi,j=1 if the distance δij between res
 
 <div align=”center”> $` M(i,j) = 1 if δ(i,j) < t`$ </div>
 
-$` M(i,j) = 0 if δ(i,j) ≥ t `$
+
+
+<p align="center">
+// $` M(i,j) = 0 if δ(i,j) ≥ t `$
+</p>
 
 
 Where:
