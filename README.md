@@ -1,4 +1,14 @@
-Welcome to the Protein Modeling Tutorial Git repository! Here you will find valuable information on computational methods for Protein Structure Prediction. Below are some key methods and tools discussed in this tutorial:
+Welcome to the Protein Modeling Tutorial Git repository! Here you will find valuable information on computational methods for Protein Structure Prediction. 
+
+Traditionally, proteins were studied individually by identifying and cloning their coding sequences into expression vectors for biochemical experiments or structural analysis. However, with advancements in sequencing technology in the early 1980s, the focus shifted towards studying entire sets of proteins within organisms. The RCSB Protein Data Bank (PDB) serves as a valuable resource for biological macromolecular structures, offering tools to understand the relationship between sequence, structure, and function.
+
+As of February 7, 2006, the RCSB/PDB contained 35,026 structures, with 33,429 being proteins, including those in complexes with nucleic acids. When encountering a protein structure model for the first time, the complexity of thousands or even hundreds of thousands of atoms may seem overwhelming. To simplify this, a hierarchical description of protein structure is commonly used, consisting of primary, secondary, tertiary, and quaternary levels. Additionally, super secondary structures and domains are included between the secondary and tertiary levels to provide a more detailed organization of protein structures. This hierarchical approach aids in deciphering patterns within protein structures and understanding their functional significance.
+
+![Alt text](image link)
+
+
+
+Below are some key methods and tools discussed in this tutorial:
 
 ## Computational Methods for Protein Structure Prediction
 
